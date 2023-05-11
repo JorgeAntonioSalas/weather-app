@@ -1,9 +1,10 @@
 import React from 'react'
+import Video from '../assets/background.mp4'
 
 const Background = () => {
     return (
         <video className="background__video" loop muted autoPlay>
-            <source src="https://pixabay.com/es/videos/download/video-45959_source.mp4?attachment" type="video/mp4" />
+            <source src={Video} type="video/mp4" />
         </video>
     )
 }
